@@ -4,8 +4,8 @@ var entities = [];
 var service = "${serviceFileName}";
 var primaryKey;
 #foreach ($tableColumn in $tableColumns) 
-#if ($tableColumn.isKey())
-primaryKey = "${tableColumn.getName()}";
+#if ($tableColumn.key)
+primaryKey = "${tableColumn.name}";
 #end 
 #end
 
