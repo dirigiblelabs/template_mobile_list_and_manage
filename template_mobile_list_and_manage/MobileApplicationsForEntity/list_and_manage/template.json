@@ -5,8 +5,7 @@
     "sources":[{
         "name":"MobileApplications/app.js",
         "action":"generate",
-        "rootFolder":"MobileApplications",
-        "rename":"%s"
+        "rootFolder":"MobileApplications"
     }, {
         "name":"MobileApplications/package.json",
         "action":"generate",
