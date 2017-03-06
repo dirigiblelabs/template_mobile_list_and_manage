@@ -13,17 +13,17 @@
     }, {
         "name":"MobileApplications/node_modules/polyfill.min.js",
         "action":"copy",
-        "rootFolder":"MobileApplications",
+        "rootFolder":"MobileApplications/node_modules",
         "packagePath":"node_modules"
     },  {
         "name":"MobileApplications/node_modules/tabris/package.json",
         "action":"copy",
-        "rootFolder":"MobileApplications",
+        "rootFolder":"MobileApplications/node_modules/tabris",
         "packagePath":"node_modules/tabris"
     }, {
         "name":"MobileApplications/node_modules/tabris/tabris.min.js",
         "action":"copy",
-        "rootFolder":"MobileApplications",
+        "rootFolder":"MobileApplications/node_modules/tabris",
         "packagePath":"node_modules/tabris"
     }],
     "parameters":[{
